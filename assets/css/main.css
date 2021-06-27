@@ -21,4 +21,35 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+header {
+  font-style: h1;
+  background: red;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: orange;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+  background: green;
+}
+
+article {
+  padding: 20px;
+  margin: 40px;
+  border: 20px;
+  background: blue;
+}
+
+footer {
+  padding: 20px;
+  background: pink;
+  text-align: center;
 }
