@@ -1,0 +1,16 @@
+.button-row {
+  height: 60px;
+  align-items: center;
+  display: inline-block;
+  /*margin: 4px;*/
+}
+
+.button-row__label {
+  width: 80px;
+  border: none;
+  background: var(--white);
+  color: var(--grey-3);
+  text-transform: uppercase;
+  display: inline-block;
+  padding-left: 140px;
+}

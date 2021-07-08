@@ -1,11 +1,31 @@
 .page {
+  height: 1957px;
+  width: 1440px;
   background: #E5E5E5;
 }
 
-.page_layout {
+.page__layout {
   position: relative;
+  height: 410px;
   width: 1440px;
-  height: 1657px;
+  top: 180px;
+  border-radius: 0px;
+  background: var(--white);
+  align-items: center;
+}
 
-  background: #FFFFFF;
+.page__box {
+  max-width: 1110px;
+  display: inline-block;
+  align-items: center;
+  top: 160px;
+}
+
+.header {
+  background-color: var(--grey-1);
+  display: inline-block;
+}
+
+.footer {
+
 }

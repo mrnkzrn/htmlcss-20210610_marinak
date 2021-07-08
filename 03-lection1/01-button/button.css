@@ -1,75 +1,72 @@
 /* Стилизация кнопки */
-<<<<<<< HEAD
-button {
+.button {
   width: 189px;
   height: 48px;
   border-radius: 8px;
   border: none;
   outline: none;
+  box-sizing: border-box;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
 }
 
-.button-row {
-  padding-left: 160px;
-  padding-right: 160px;
-  align-items: center;
-  display: inline-block;
+.button-primary {
+  background: var(--primary);
+  color: var(--white);
 }
 
-.button-row__label {
-  width: 80px;
-  border: none;
-  background: #ffffff;
-  color: #ACB5BD;
-  text-transform: uppercase;
-  display: inline-block;
+.button-primary_hover {
+  background: var(--darkblue);
 }
 
-.button_primary {
-  background: #4263EB;
-  color: #ffffff;
-}
-
-.button_primary_hover {
-  background: #2342C0;
-}
-
-.button_primary_disabled {
-  background: #4263EB;
+.button-primary_disabled {
+  background: var(--primary);
+  pointer-events: none;
   opacity: 0.5;
 }
 
-.button_secondary {
-  background: #7048E8;
-  color: #ffffff;
+.button-secondary {
+  background: var(--secondary);
+  color: var(--white);
 }
 
-.button_secondary_hover {
-  background: #5028C6;
-  color: #ffffff;
+.button-secondary_hover {
+  background: var(--darkpurple);
 }
 
-.button_secondary_disabled {
-  background: #7048E8;
+.button-secondary_disabled {
+  background: var(--secondary);
+  pointer-events: none;
   opacity: 0.5;
 }
 
-.button_alternate {
-  background: #ffffff;
-  color: #212429;
-  border: 1px solid #ACB5BD;
+.button-alternate {
+  background: var(--white);
+  color: var(--black);
+  border: 1px solid var(--grey-3);
 }
 
-.button_alternate_hover {
-  background: #ffffff;
-  color: #495057;
-  border: 1px solid #212429;
+.button-alternate_hover {
+  background: var(--white);
+  color: var(--grey-4);
+  border: 1px solid var(--black);
 }
 
-.button_alternate_disabled {
-  border: 1px solid #ACB5BD;
-  color: #495057;
+.button-alternate_disabled {
+  pointer-events: none;
+  color: var(--grey-4);
   opacity: 0.5;
 }
-=======
->>>>>>> 8fa22b689068187e5d001abad41ff6c179307581
+
+.button:hover {
+  text-decoration: underline var(--secondary);
+}
+
+/*.button:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}*/
